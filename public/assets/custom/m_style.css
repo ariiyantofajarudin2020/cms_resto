@@ -1,0 +1,132 @@
+.noactive {
+  pointer-events: none;
+  /* Mencegah interaksi dengan elemen nonaktif */
+  border-collapse: collapse;
+  background-color: #cfcfcf;
+  /* Warna latar belakang abu-abu */
+}
+
+.noactive th,
+.noactive td {
+  border: 1px solid #ccc;
+  /* Border abu-abu */
+}
+
+.noactive th {
+  background-color: #b3b3b3;
+  /* Warna latar belakang abu-abu untuk header tabel */
+  color: #a0a0a0;
+  /* Warna teks abu-abu untuk header tabel */
+}
+
+.noactive td {
+  background-color: #cfcfcf;
+  /* Warna latar belakang abu-abu untuk sel tabel */
+  color: #a0a0a0;
+  /* Warna teks abu-abu untuk sel tabel */
+}
+
+/* Mengatur tampilan checkbox */
+.noactive input[type='checkbox'] {
+  cursor: not-allowed;
+  /* Menampilkan cursor yang menunjukkan bahwa checkbox tidak dapat diklik */
+  pointer-events: none;
+  /* Menonaktifkan interaksi dengan checkbox */
+  background-color: #cfcfcf;
+  /* Warna latar belakang abu-abu untuk sel tabel */
+  color: #a0a0a0;
+}
+
+/* Menambahkan gaya tambahan untuk memvisualisasikan status nonaktif */
+.noactive input[type='checkbox']:disabled {
+  accent-color: #a0a0a0;
+  /* Warna aksen untuk checkbox yang dinonaktifkan */
+}
+
+.position-fixed {
+  z-index: 9999;
+  right: 20px;
+}
+
+.cur {
+  cursor: pointer;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* Warna latar belakang dengan transparansi */
+  z-index: 1000; /* Z-index tinggi agar berada di atas elemen lain */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  width:350px;
+  height:50px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.hide {
+  display:none;
+}
+.tbl-sm {
+   font-size:15px;
+}
+.tbl-pos {
+  margin-top: 10px;
+      width: 100%;
+    border-collapse: collapse;
+}
+.pos-col1 {
+    width: 150px;
+}
+.pos-col2 {
+    width: 150px;
+}
+.pos-col3 {
+    width: 150px;
+}
+.btn-pos {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  margin-top: 2px;
+}
+.btn-katmenu-pos {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  margin-top: 2px;
+}
+.btn-menu-pos {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  margin-top: 2px;
+}
+.btn-meja-pos {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 80%;
+  font-size: 14px;
+  font-weight:bold;
+}
